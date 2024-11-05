@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1b1b3a;
+    margin: 0;
+}
+
+.clock-container {
+    display: flex;
+    background: linear-gradient(135deg, #ff416c, #5c42f5);
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.time-unit {
+    text-align: center;
+    margin: 0 10px;
+}
+
+.time-unit p {
+    margin: 0;
+    color: #fff;
+}
+
+.hours, .minutes, .seconds {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.label {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.colon {
+    font-size: 3em;
+    color: #fff;
+    margin: 0 5px;
+}
